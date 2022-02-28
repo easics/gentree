@@ -1,0 +1,43 @@
+*gentree* functionality for tree files
+
+Gentree
+
+Functionality for the tree files.
+Includes detecting the filetype, syntax highlighting, indent rules, and more.
+
+===============================================================================
+CONTENTS                                               *gentreeContents*
+
+  1. Usage                     |gentreeUsage|
+  2. Mappings                  |gentreeMappings|
+
+===============================================================================
+Section 1: Usage                                       *gentreeUsage*
+
+This plugin provides vim functionality for tree files. It contains the
+following standard vim subdirectories with functionality for gentree:
+
+                                                       *gentreeFtdetect*
+ftdetect   Automatic filetype detection for tree files. This sets the
+           filetype to tree.
+
+                                                       *gentreeSyntax*
+syntax     This provides syntax highlighting for gentree syntax.
+
+                                                       *gentreeIndent*
+indent     This defines indent rules for tree files.
+
+ftplugin   This defines the characters used for documentation. Defining these
+           characters as comments, allows vim to take some extra rules in
+           account when using standard vim commands.
+           E.g. when using <gq> to split a comment line, the resulting split
+           starts each line with the comment characters.
+
+                                                       *gentreeDoc*
+doc        This documentation.
+
+===============================================================================
+Section 2: Mappings                                    *gentreeMappings*
+
+For this plugin no mappings are needed.
+
